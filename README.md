@@ -9,13 +9,12 @@
 - [Books](#books)
 - [Papers](#papers)
 - Frameworks
-<!-- * Datasets -->
+- Datasets
 - Projects
 - Miscellaneous
 
 ## :point_right: What's Record Linkage?
-
-...
+*Entity Resolution* (ER) aims to identify different descriptions that refer to the same real-world object. Detecting entities stored in the same database is refeerd to as *deduplication*, while  *record linkage* refeers to detectation in two different databases. 
 
 ## :books: Books
 
@@ -28,18 +27,24 @@
 
 - 2020 | An Overview of End-to-End Entity Resolution for Big Data | Vassilis Christophides, et al. | [`pdf`](https://arxiv.org/pdf/1905.06397.pdf)
 - 2012 | A Survey of Indexing Techniques for Scalable Record Linkage and Deduplication | Peter Christen | [`pdf`](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5887335)
+- 2007 | Duplicate Record Detection: A Survey | Ahmed K. Elmagarmid, et a.l | [`pdf`](https://ieeexplore.ieee.org/document/4016511)
 
 ### Entity Matching Management Systems
 
 - 2016 | Magellan: Toward Building Entity Matching Management Systems | Pradap Konda, et al. | [`pdf`](http://www.vldb.org/pvldb/vol9/p1197-pkonda.pdf) | [`git`](https://github.com/anhaidgroup/py_entitymatching)
 
+### Generic Entity Resolution Techniques
+- [Swoosh: a generic approach to entity resolution](http://infolab.stanford.edu/serf/swoosh_vldbj.pdf)
+<!-- - [HARRA: Fast Iterative Hashed Record Linkage for Large-Scale Data Collections](https://openproceedings.org/2010/conf/edbt/KimL10.pdf)
+- [(stringMap) Supporting Efficient Record Linkage for Large Data Sets Using Mapping Techniques](https://www.ics.uci.edu/~chenli/pub/2006-ljm.pdf) -->
+
 ### Indexing
 
-- [Corleone: Hands-Off Crowdsourcing for Entity Matching](https://pages.cs.wisc.edu/~anhai/papers/corleone-sigmod14.pdf), 2009
+<!-- - [Corleone: Hands-Off Crowdsourcing for Entity Matching](https://pages.cs.wisc.edu/~anhai/papers/corleone-sigmod14.pdf), 2009 -->
 
 #### Debugging of blocking
 
-- [MatchCatcher: A Debugger for Blocking in Entity Matching](https://pages.cs.wisc.edu/~anhai/papers1/matchcatcher-edbt18.pdf), 2018
+<!-- - [MatchCatcher: A Debugger for Blocking in Entity Matching](https://pages.cs.wisc.edu/~anhai/papers1/matchcatcher-edbt18.pdf), 2018 -->
 
 ### Pair compairinson
 
@@ -112,6 +117,13 @@ Table 1 is a composition of tools presented in [(2020, V. Christophides)](https:
 | Silk|---|RB|---||GUI|Hadoop|Scala|:heavy_check_mark:|[`git`](https://github.com/silk-framework/silk), [`install`](http://silkframework.org/download)|[(2009, J. Volz)](http://events.linkeddata.org/ldow2009/papers/ldow2009_paper13.pdf)|
 | TAILOR|AE, SN|P, C, H, I|---||GUI|:x:|Java|:x:|---|[(2002, M. G. Elfeky)](https://www.cs.purdue.edu/homes/ake/pub/TAILOR_ICDE2002.pdf)|
 |WHIRL|---|---|---||CMD|:x:|C++|:x:|[`install`](https://www.cs.cmu.edu/~wcohen/whirl/)|[(2000, W.W Cohen)](https://www.sciencedirect.com/science/article/pii/S0004370299001022)|
+
+## Datasets
+- University of Leipzig: [Benchmark datasets for entity resolution](https://dbs.uni-leipzig.de/research/projects/object_matching/benchmark_datasets_for_entity_resolution)
+- [Restaurant](http://oaei.ontologymatching.org/2010/im/)
+- [Rexa-DBLP](http://oaei.ontologymatching.org/2009/instances/)
+- [BBCmusic-DBpedia](https://old.datahub.io/dataset/bbc-music)
+- [YAGO-IMDb](https://yago-knowledge.org/)
 
 ## :pushpin: Miscellaneous
 - List of [blog posts](https://www.robinlinacre.com/probabilistic_linkage/) on "Probabilistic Record Linkage" by Robin Linacre (Lead developer of Splink).
